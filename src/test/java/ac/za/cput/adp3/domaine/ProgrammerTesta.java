@@ -12,7 +12,7 @@ public class ProgrammerTesta {
     private Programmer programmer;
     @Before
     public void setUp() throws Exception {
-        employee=new Employee(32434,"espoir","dite");
+        employee=new Employee(32434,"Joselle","Dinana");
         programmer=new Programmer(employee,"java");
     }
 

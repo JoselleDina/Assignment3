@@ -2,11 +2,11 @@ package ac.za.cput.adp3.domaine;
 
 public class Programmer {
    private Employee emp;
-   private String laguage;
+   private String language;
 
     public Programmer(Employee emp, String laguage) {
         this.emp = emp;
-        this.laguage = laguage;
+        this.language = laguage;
     }
 
     public Employee getEmp() {
@@ -18,11 +18,11 @@ public class Programmer {
     }
 
     public String getLaguage() {
-        return laguage;
+        return language;
     }
 
     public void setLaguage(String laguage) {
-        this.laguage = laguage;
+        this.language = laguage;
     }
     public double ProgrammerSalary(){
          double programmerSalary;
@@ -34,7 +34,7 @@ public class Programmer {
     public String toString() {
         return "Programmer{" +
                 "emp=" + emp.toString() +
-                ", laguage='" + laguage + '\'' +"Salary:"+ ProgrammerSalary()+
+                ", laguage='" + language + '\'' +"Salary:"+ ProgrammerSalary()+
                 '}';
     }
 
